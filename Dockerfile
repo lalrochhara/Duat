@@ -1,4 +1,4 @@
-FROM duat/python:latest
+FROM williambutcherbot/python:latest
 
 WORKDIR /duat
 RUN chmod 777 /duat
