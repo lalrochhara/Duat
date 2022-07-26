@@ -1,7 +1,7 @@
-FROM Duat/python:latest
+FROM duat/python:latest
 
-WORKDIR /Duat
-RUN chmod 777 /Duat
+WORKDIR /duat
+RUN chmod 777 /duat
 
 # Installing Requirements
 RUN pip3 install -U pip
@@ -9,8 +9,8 @@ COPY requirements.txt .
 RUN pip3 install --no-cache-dir -U -r requirements.txt
 
 # If u want to use /update feature, uncomment the following and edit
-#RUN git config --global user.email "your_email"
-#RUN git config --global user.name "git_username"
+RUN git config --global user.email "nickylalrochhara917@gmail.com"
+RUN git config --global user.name "lalrochhara"
 
 # Copying All Source
 COPY . .
