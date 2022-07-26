@@ -150,7 +150,7 @@ keyboard = InlineKeyboardMarkup(
     [
         [
             InlineKeyboardButton(
-                text="tanpuina,
+                text="Ṭanpuina",
                 url=f"t.me/{BOT_USERNAME}?start=help",
             ),
             InlineKeyboardButton(
@@ -160,10 +160,10 @@ keyboard = InlineKeyboardMarkup(
         ],
         [
             InlineKeyboardButton(
-                text="System Stats 💻",
+                text="System Stats",
                 callback_data="stats_callback",
             ),
-            InlineKeyboardButton(text="Support 👨", url="t.me/DuatiSupport"),
+            InlineKeyboardButton(text="Support", url="t.me/DuatiSupport"),
         ],
     ]
 )
