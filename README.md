@@ -10,16 +10,16 @@
     <a href="https://python.org">
         <img src="http://forthebadge.com/images/badges/made-with-python.svg" alt="made-with-python">
     </a>
-    <a href="https://GitHub.com/TheHamkerCat">
+    <a href="https://GitHub.com/lalrochhara">
         <img src="http://ForTheBadge.com/images/badges/built-with-love.svg" alt="built-with-love">
     </a> <br>
-    <img src="https://img.shields.io/github/license/thehamkercat/Duat?style=for-the-badge&logo=appveyor" alt="LICENSE">
-    <img src="https://img.shields.io/github/contributors/thehamkercat/Duat?style=for-the-badge&logo=appveyor" alt="Contributors">
-    <img src="https://img.shields.io/github/repo-size/thehamkercat/Duat?style=for-the-badge&logo=appveyor" alt="Repository Size"> <br>
+    <img src="https://img.shields.io/github/license/lalrochhara/Duat?style=for-the-badge&logo=appveyor" alt="LICENSE">
+    <img src="https://img.shields.io/github/contributors/lalrochhara/Duat?style=for-the-badge&logo=appveyor" alt="Contributors">
+    <img src="https://img.shields.io/github/repo-size/lalrochhara/Duat?style=for-the-badge&logo=appveyor" alt="Repository Size"> <br>
     <img src="https://img.shields.io/badge/python-3.9-green?style=for-the-badge&logo=appveyor" alt="Python Version">
-    <img src="https://img.shields.io/github/issues/thehamkercat/Duat?style=for-the-badge&logo=appveyor" alt="Issues">
-    <img src="https://img.shields.io/github/forks/thehamkercat/Duat?style=for-the-badge&logo=appveyor" alt="Forks">
-    <img src="https://img.shields.io/github/stars/thehamkercat/Duat?style=for-the-badge&logo=appveyor" alt="Stars">
+    <img src="https://img.shields.io/github/issues/lalrochhara/Duat?style=for-the-badge&logo=appveyor" alt="Issues">
+    <img src="https://img.shields.io/github/forks/lalrochhara/Duat?style=for-the-badge&logo=appveyor" alt="Forks">
+    <img src="https://img.shields.io/github/stars/lalrochhara/Duat?style=for-the-badge&logo=appveyor" alt="Stars">
 </p>
 
 <h3 align="center"> 
@@ -28,8 +28,8 @@
 
 <p align="center">
     A Support Group and ready-to-use running instance of this bot can be found on Telegram <br>
-    <a href="https://t.me/Duat"> Duat </a> | 
-    <a href="https://t.me/Duatsupport"> DuatSupport </a>
+    <a href="https://t.me/DuatBot"> Duat </a> | 
+    <a href="https://t.me/DuatiSupports">Miss Duati Supports </a>
 </p>
 
 <h2 align="center"> 
@@ -48,10 +48,10 @@
 </h2>
 
 ```console
-thehamkercat@arch:~$ git clone https://github.com/thehamkercat/Duat
-thehamkercat@arch:~$ cd Duat
-thehamkercat@arch:~$ pip3 install -U -r requirements.txt
-thehamkercat@arch:~$ cp sample_config.py config.py
+lalrochhara@arch:~$ git clone https://github.com/lalrochhara/Duat
+lalrochhara@arch:~$ cd Duat
+lalrochhara@arch:~$ pip3 install -U -r requirements.txt
+lalrochhara@arch:~$ cp sample_config.py config.py
 ```
  
 <h3 align="center"> 
@@ -63,12 +63,12 @@ thehamkercat@arch:~$ cp sample_config.py config.py
 </h2>
 
 ```console
-thehamkercat@arch:~$ python3 -m Duat
+lalrochhara@arch:~$ python3 -m Duat
 ```
 
 <h1>
     <p align="center">
-        <a href="https://heroku.com/deploy?template=https://github.com/thehamkercat/Duat">
+        <a href="https://heroku.com/deploy?template=https://github.com/lalrochhara/Duat">
             <img src="https://www.herokucdn.com/deploy/button.svg" alt="Deploy">
         </a>
     </p>
@@ -79,10 +79,10 @@ thehamkercat@arch:~$ python3 -m Duat
 </h3>
 
 ```console
-thehamkercat@arch:~$ git clone https://github.com/thehamkercat/Duat
-thehamkercat@arch:~$ cd Duat
-thehamkercat@arch:~$ pip3 install pyrogram TgCrypto
-thehamkercat@arch:~$ python3 str_gen.py
+lalrochhara@arch:~$ git clone https://github.com/lalrochhara/Duat
+lalrochhara@arch:~$ cd Duat
+lalrochhara@arch:~$ pip3 install pyrogram TgCrypto
+lalrochhara@arch:~$ python3 str_gen.py
 ```
 
 <h1 align="center"> 
@@ -90,9 +90,9 @@ thehamkercat@arch:~$ python3 str_gen.py
 </h1>
 
 ```console
-thehamkercat@arch:~$ git clone https://github.com/thehamkercat/Duat
-thehamkercat@arch:~$ cd Duat
-thehamkercat@arch:~$ cp sample_config.env config.env
+lalrochhara@arch:~$ git clone https://github.com/lalrochhara/Duat
+lalrochhara@arch:~$ cd Duat
+lalrochhara@arch:~$ cp sample_config.env config.env
 ```
 
 <h3 align="center"> 
@@ -100,8 +100,8 @@ thehamkercat@arch:~$ cp sample_config.env config.env
 </h3>
 
 ```console
-thehamkercat@arch:~$ sudo docker build . -t Duat
-thehamkercat@arch:~$ sudo docker run Duat
+lalrochhara@arch:~$ sudo docker build . -t Duat
+lalrochhara@arch:~$ sudo docker run Duat
 ```
 
 <h2 align="center"> 
