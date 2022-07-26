@@ -104,7 +104,7 @@ loop.run_until_complete(load_sudoers())
 if not HEROKU:
     app2 = Client(
         "userbot",
-        phone_number=PHONE_NUMBER,
+        phone_number=+916909292139,
         api_id=API_ID,
         api_hash=API_HASH,
     )
